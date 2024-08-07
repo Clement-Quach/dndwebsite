@@ -79,7 +79,7 @@ app.get('/human', (req, res) => {
 	res.render('human');
 });
 app.get('/elves', (req, res) => {
-	res.render('evles');
+	res.render('elves');
 });
 app.get('/dwarf', (req, res) => {
 	res.render('dwarf');
