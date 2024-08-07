@@ -58,8 +58,8 @@ app.get('/species', (req, res) => {
 	res.render('species');
 });
 
-app.get('/tomato', (req, res) => {
-	res.render('tomato');
+app.get('/stats', (req, res) => {
+	res.render('stats');
 });
 
 
