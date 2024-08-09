@@ -73,6 +73,13 @@ app.get('/world', (req, res) => {
 	res.render('world');
 });
 
+app.get('/divinity', (req, res) => {
+	res.render('divinity');
+});
+
+app.get('/map', (req, res) => {
+	res.render('map');
+});
 
 
 app.get('/human', (req, res) => {
