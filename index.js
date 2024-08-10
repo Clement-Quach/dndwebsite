@@ -77,6 +77,30 @@ app.get('/divinity', (req, res) => {
 	res.render('divinity');
 });
 
+app.get('/Panblack', (req, res) => {
+	res.render('Panblack');
+});
+
+app.get('/Panwhite', (req, res) => {
+	res.render('Panwhite');
+});
+app.get('/Panblue', (req, res) => {
+	res.render('Panblue');
+});
+
+
+app.get('/Pangreen', (req, res) => {
+	res.render('Pangreen');
+});
+
+app.get('/Pangrey', (req, res) => {
+	res.render('Pangrey');
+});
+
+
+
+
+
 app.get('/map', (req, res) => {
 	res.render('map');
 });
